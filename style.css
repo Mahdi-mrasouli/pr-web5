@@ -1,0 +1,263 @@
+body,html {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  padding-bottom: 20px;
+  background-color: #b9d3ed;
+}
+.navigation img {
+  border-radius: 100%;
+  width: 20%;
+  float: left;
+  box-shadow: 0px 0px 7px 2px rgb(49, 145, 145);
+}
+.navigation li {
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  list-style-type: none;
+  display: inline;
+  float: right;
+}
+.navigation a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.9em;
+  font-weight: 450;
+  text-decoration: none;
+  color: rgb(4, 173, 117);
+  text-align: center;
+}
+.navigation a:hover {
+  transition: 0.3s ease-in;
+}
+.navText {
+ padding-left: 40px;
+}
+
+.nameText {
+  text-align: center;
+  margin-top: 50px;
+}
+.nameText h1{
+  font-family: 'Tangerine', cursive;
+  color: #2f5b4f;
+  font-size: 70px;
+}
+.nameText h5{
+  font-size: 20px;
+  font-family: 'Averia Gruesa Libre', cursive;
+  color: #472c4a;
+  margin-top: -20px;
+}
+.natureHeaderPicture {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 160px;
+}
+.introductionSection {
+  padding: 20px 0px; 
+  width: 100%;
+  margin: auto;
+  text-align: center; 
+}
+.introductionSection img {
+  margin-top: 30px;
+  border-radius: 100%;
+  border: 6px solid #6cb09ae0;
+  box-shadow: 0px 0px 7px 2px rgb(219, 179, 134);
+  width: 10%;
+}
+.introductionSection h5 {
+  font-size: 2.5em;
+  margin: 20px 0;
+  color: rgb(47, 128, 113);
+  font-family: 'Averia Gruesa Libre', cursive; 
+}
+.introductionSection p{
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(104, 103, 103);
+}
+hr {
+  width: 4%;
+  border-width: 10px;
+  border-style: dotted;
+  border-color: #a4ebd5;
+  border-top: 0px;
+}
+.socialMediaIcon{
+  position: relative;
+  bottom: 60px;
+  width: 50px;
+  margin: 0 ;
+}
+.socialMediaIcon a{
+  display: block;
+  color: #472c4a;
+  text-decoration: none;
+  margin-left: 8px;
+  padding-bottom: 10px;  
+}
+.socialMediaIcon i {
+  font-size: 40px;
+  color: #1d8171;
+  font-size: 30px;
+  transition: 0.3s ease-out;
+}
+.socialIconText {
+  display: none;
+}
+.socialMediaIcon i:hover {
+  color: #0c452d;
+  text-decoration: solid;
+  box-shadow: rgba(131, 14, 96, 0.652) 0px 5px 00px, rgb(4, 48, 23) 0px 3px 0px;
+}
+
+.section1 {
+  text-align: left;
+  width: 60%;
+  color: #1d8171;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+h2 {text-align: center;}
+
+
+.sectionRow {
+  color: #1d8171;
+  text-align: left;
+}
+
+
+.section1 img {
+  border-radius: 50px 10px 10px 50px ;
+  border: 4px solid rgb(2, 74, 54);
+  /* box-shadow: rgba(171, 167, 167, 0.268) -10px 10px 10px, rgba(20, 49, 41, 0.29) -10px 10px 10px; */
+  width: 30%;
+  float: left;
+  margin-right: 40px;
+}
+
+.sectionRow h3 {
+  color: #127949;
+  font-size: 2em;
+  font-family: 'Averia Gruesa Libre', cursive;
+}
+
+.sectionRow p {
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  line-height: 2;
+}
+
+.informationSection {
+  background-color: rgb(243, 229, 203);
+  padding: 50px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.informationSection h2 {
+  margin-top: 0;
+  font-size: 2.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(88, 88, 88);
+}
+
+.contactSection {
+  width: 40%;
+  border-radius: 100px 100px 20px 20px;
+  background-color: #ffffff ;
+  margin: auto;
+  padding: 60px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.contactSection h2 {
+  margin-top: 0;
+  font-size: 2.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(88, 88, 88);
+}
+
+
+.contactSection h4 {
+  font-size: 1.4em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #127949;
+}
+
+.contactSection p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  line-height: 2;
+  color: gray;
+}
+
+.contactButton {
+  padding: 13px 10px;
+  margin-top: 20px;
+  border-radius: 7px;
+  color: rgb(255, 252, 252);
+  font-weight: bold;
+  background-color: #f5c22a;
+  font-size: 20px;
+  border: none;
+  box-shadow: rgba(83, 76, 81, 0.652) 0px 5px 00px, rgb(4, 48, 23) 0px 3px 0px;
+}
+
+.contactButton:hover {
+  background-color: rgb(75, 174, 250);
+  transition:  0.3s ease-in ;
+}
+
+.iconContact {
+  color: rgb(142, 57, 228);
+  font-size: 100px;
+  position: relative;
+  
+}
+
+.contactText {
+  background-color: #a4ebd5 ;
+  width: 50%;
+  margin: auto;
+  padding: 15px 12px 2px 12px;
+  border-radius: 30px;
+}
+
+.contactImg {
+  position: absolute;
+  right: -300px;
+  bottom: 250px;
+  opacity: 0.6;
+}
+
+.treeImg {
+  position: absolute;
+  left: -300px;
+  bottom: 0px;
+  opacity: 0.6;
+
+}
+
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  background-color: rgb(191, 191, 191);
+}
+
+.footer p {
+  margin: 0;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9em;
+}
